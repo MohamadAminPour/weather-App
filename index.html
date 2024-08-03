@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>api</title>
+</head>
+
+<body>
+    <div class="message">
+        <i class='bx bxs-error'></i>
+        <p> Please check your conection or enter your country.</p>
+    </div>
+
+    <div class="weather-container">
+        <div class="weather-loader">
+            <span class="loader"></span>
+        </div>
+
+        <div class="weather">
+            <div class="weather-search">
+                <input type="text" class="weather-search__input" placeholder="Country , City ...">
+                <i class='bx bx-search weather-search__icon'></i>
+            </div>
+            <img src="./image/sun.png" alt="" class="weather-image">
+            <p class="weather-temp"></p>
+            <p class="weather-countryName"></p>
+
+            <div class="weather-humidity-Windspeed">
+                <div class="humidity">
+                    <div class="humidity-img">
+                        <img src="./image/humidity.png" alt="">
+                    </div>
+                    <div class="humidity-txt">
+                        <p class="humidity-txt__top">0%</p>
+                        <p class="humidity-txt__bottom">Humidity</p>
+                    </div>
+                </div>
+                <div class="Windspeed">
+                    <div class="Windspeed-img">
+                        <img src="./image/SpeedWind.png" alt="">
+                    </div>
+                    <div class="Windspeed-txt">
+                        <p class="Windspeed-txt__top">0Km/h</p>
+                        <p class="Windspeed-txt__bottom">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
